@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Movie DB films</h1>
+      <div class="info">
+        <form>
+          <input
+            class="searchInput"
+            type="text"
+            placeholder="Search movies..."
+          />
+          <button class="btn">search</button>
+        </form>
+        <select class="select">
+          <option value=""></option>
+          <option value="">Multfilm</option>
+          <option value="">Fantastik</option>
+          <option value="">Boevik</option>
+          <option value="">Dedektiv</option>
+          <option value="">Sarguzasht</option>
+          <option value="">Bolajon Ertaklari</option>
+        </select>
+      </div>
+      <div class="notFound">Ma'lumot topilmadi</div>
+      <div class="loading">
+        <div class="lds-ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="mainBox"></div>
+      <div class="pagination">
+        <button class="prevBtn">Previous</button>
+        <button class="nextBtn">Next</button>
+      </div>
+      <div class="pagination">
+        <ul class="pagination_ul">
+          <li class="pagination_li">1</li>
+          <li class="pagination_li">2</li>
+          <li class="pagination_li">3</li>
+          <li class="pagination_li">4</li>
+          <li class="pagination_li">5</li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
